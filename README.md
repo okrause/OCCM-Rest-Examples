@@ -1,7 +1,8 @@
 Example scripts on how to call Netapp OnCommand Cloud Manager (OCCM) API
 
-Main documentation, see OnCommand Cloud Manager 3.4 API Developer Guide
-https://library.netapp.com/ecmdocs/ECMLP2839258/html/index.html
+Some code examples on how to call OCCM in different languages to get you scripting started. 
+
+See OnCommand Cloud Manager 3.4 API Developer Guide at https://library.netapp.com/ecmdocs/ECMLP2839258/html/index.html and browse REST API with Swagger interface at http://<occm-ip>/occm/api-doc of your OCCM.
 
 ## Usage:
 mv credentials.json.sample credentials.json
