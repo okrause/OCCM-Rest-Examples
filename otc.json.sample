@@ -1,0 +1,47 @@
+{
+  "name": "ontap",
+  "volume": {
+    "exportPolicyInfo": {
+      "policyType": "custom",
+      "ips": [
+        "<<your_vpc_cidr>>"
+      ]
+    },
+    "snapshotPolicyName": "default",
+    "name": "vol01",
+    "enableThinProvisioning": true,
+    "enableDeduplication": true,
+    "enableCompression": true,
+    "size": {
+      "size": 10,
+      "unit": "GB"
+    }
+  },
+  "tenantId": "<<occm_tenant>>",
+  "region": "<<aws_region>>",
+  "packageName": "aws_custom",
+  "dataEncryptionType": "NONE",
+  "vsaMetadata": {
+    "ontapVersion": "useLatestVersion",
+    "useLatestVersion": true,
+    "licenseType": "cot-explore-paygo",
+    "instanceType": "m4.xlarge"
+  },
+  "writingSpeedState": "NORMAL",
+  "subnetId": "<<aws_subnet>>",
+  "svmPassword": "<<otc_admin_password>",
+  "vpcId": "<<aws_vpc>>",
+  "ontapEncryptionParameters": null,
+  "ebsVolumeType": "gp2",
+  "ebsVolumeSize": {
+    "size": 100,
+    "unit": "GB",
+    "_identifier": "100 GB"
+  },
+  "awsTags": [],
+  "optimizedNetworkUtilization": false,
+  "instanceTenancy": "default",
+  "iops": null,
+  "instanceProfileName": null
+}
+
